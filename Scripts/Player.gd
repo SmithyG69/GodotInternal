@@ -12,6 +12,11 @@ var player_state
 
 func _ready():
 	screen_size = get_viewport_rect().size
+	reset()
+	
+	
+	
+func reset():
 	position = screen_size / 2 
 	can_shoot = true
 
